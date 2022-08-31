@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+a:link {
+	text-decoration: none;
+	color: #FF0;
+}
+a:visited {
+	text-decoration: none;
+	color: #CCC;
+}
+a:hover {
+	text-decoration: underline;
+	color: #FFF;
+}
+a:active {
+	text-decoration: none;
+	color: #FFF;
+}
+
+body
+{ background:url(foto/wood.jpg);}
+#topbannerBG
+{background: url('foto/bg.png') repeat-x;height: 60px;width: 100%;font-family: Arial, Helvetica, sans-serif;position:fixed;top: 0px;z-index: 10000;min-width:1054px; left:0px;}
+
+#botombg
+{ background:url(foto/bot.png) no-repeat center; height:76px;}
+
+.tblisi
+{ border-image:url(foto/icon.jpg); border:5px thin #F00;}
+#tblisi{ max-width:750px; border:5px thin #F00; color:#CFF; font-size:14px; font-family:"maiandra GD";}
+
+.heading
+{color: #0066FF; font-size: 36px; font-family: "maiandra GD"; font-weight: bold; }
+.heading2
+{color: #0066FF; font-size: 18px; font-family: "maiandra GD"; font-weight: bold; }
+
+.tombol
+{background:url(foto/tombol.png) center ;color:#FFF; background-color:#00C;background-repeat:no-repeat; height:35px; display:run-in;}
+.tombol:hover
+{background:url(foto/tomboll.png); background-color:#FFFF00; color:#0000FF;}
+
+#menukiri
+{
+	position:absolute;
+	top:62px;
+	z-index:0;
+	width: 98px;
+	height: 108px;
+}
+
+.web{min-width:665px; min-height:689px;}
